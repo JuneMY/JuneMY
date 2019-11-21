@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://junemy.github.io</id>
     <title>June&apos;s blog</title>
-    <updated>2019-11-21T01:48:45.751Z</updated>
+    <updated>2019-11-21T15:19:13.747Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://junemy.github.io"/>
     <link rel="self" href="https://junemy.github.io/atom.xml"/>
@@ -16,51 +16,37 @@
         <link href="https://junemy.github.io/post/1Lxsyq61E">
         </link>
         <updated>2019-11-21T01:34:05.000Z</updated>
-        <content type="html"><![CDATA[<ol>
-<li>perfume</li>
-</ol>
+        <content type="html"><![CDATA[<h3 id="1perfume">1.	perfume</h3>
 <p>Do you use perfume?<br>
 What kind of perfume do you like?<br>
 What does perfume mean to you?<br>
 Do you give perfume as a gift?</p>
-<ol start="2">
-<li>Reading</li>
-</ol>
+<h3 id="2reading">2.	Reading</h3>
 <p>Do you like reading?<br>
 What kind of books do you read?<br>
 Do you read electronic books?<br>
 Do you read books related to your profession?</p>
-<ol start="3">
-<li>Smile</li>
-</ol>
+<h3 id="3smile">3.	Smile</h3>
 <p>Do you like to smile?<br>
 When do people smile at others?<br>
 Do you smile when people take pictures of you?<br>
 Can you recognize a fake smile?</p>
-<ol start="4">
-<li>Garbage</li>
-</ol>
+<h3 id="4garbage">4.	Garbage</h3>
 <p>Why do some people throw garbage on the street?<br>
 What do you do with garbage when you are on the street?<br>
 How do you feel when you see people throw garbage on the street?<br>
 Do you think your city is clean or not?</p>
-<ol start="5">
-<li>Visit relatives</li>
-</ol>
+<h3 id="5visit-relatives">5.	Visit relatives</h3>
 <p>Do you often visit your relatives?<br>
 What do you do when visiting relatives?<br>
 When was the last time you visited a relative?<br>
 Why do people visit their relative?</p>
-<ol start="6">
-<li>Borrowing/lending</li>
-</ol>
+<h3 id="6borrowinglending">6.	Borrowing/lending</h3>
 <p>Have you borrowed books from others?<br>
 Have you ever borrowed money from others?<br>
 Do you like to lend things to others?<br>
 How do you feel when people don’t return things they borrowed from you?</p>
-<ol start="7">
-<li>Social networks</li>
-</ol>
+<h3 id="7social-networks">7.	Social networks</h3>
 <p>Do you like using social networks?<br>
 When did you first hear about social networks?<br>
 Is social networking popular in your country?<br>
@@ -71,9 +57,7 @@ How often do you use social networking applications?<br>
 Why do you use social networking apps?<br>
 What are the disadvantages of social networking apps?<br>
 Do you think it is good to make friends online?</p>
-<ol start="8">
-<li>Math</li>
-</ol>
+<h3 id="8math">8.	Math</h3>
 <p>When did you start learning math?<br>
 Do you like math?<br>
 Who taught you math?<br>
@@ -81,16 +65,12 @@ Do you often use a calculator?<br>
 Do you think it’s difficult to learn mathematics well?<br>
 Do you think mathematics is important?<br>
 Are girls generally good at mathematic?</p>
-<ol start="9">
-<li>Time management</li>
-</ol>
+<h3 id="9time-management">9.	Time management</h3>
 <p>How do you organize your time?<br>
 Why do you organize your time?<br>
 Would you say you are good at managing your time?<br>
 Where did you learn how to organize your time?</p>
-<ol start="10">
-<li>Punctuality</li>
-</ol>
+<h3 id="10punctuality">10.	Punctuality</h3>
 <p>Is punctuality important?<br>
 Do you like to wait for others?<br>
 What are the advantages of being punctual?<br>
@@ -98,9 +78,7 @@ Are you punctual?<br>
 Do you like to wear a watch?<br>
 How is your time management?<br>
 What do you do to improve your time management?</p>
-<ol start="11">
-<li>Street market</li>
-</ol>
+<h3 id="11street-market">11.	Street market</h3>
 <p>Are there many street markets in China？<br>
 What is the difference between street markets and supermarkets?<br>
 Is it a default for the street markets to exist in China？<br>
@@ -114,9 +92,7 @@ Which one do you prefer, street markets or supermarkets, why?<br>
 Do you like go to the supermarkets?<br>
 Why do people like going to the supermarket?<br>
 What do street markets sell?</p>
-<ol start="12">
-<li>Outdoor activities</li>
-</ol>
+<h3 id="12outdoor-activities">12.	Outdoor activities</h3>
 <p>What do you do in your spare time?<br>
 Do you like outdoor activities?<br>
 What outdoor activities do you like to do?<br>
@@ -129,16 +105,12 @@ Do you prefer to be indoors or outdoors?<br>
 Did you like to go outside when you were young?<br>
 Did you often go over to your friends’ house when you were young?<br>
 Is it important for children to play outdoors?</p>
-<ol start="13">
-<li>Spare time with family</li>
-</ol>
+<h3 id="13spare-time-with-family">13.	Spare time with family</h3>
 <p>Do you like to spend time with your family?<br>
 What do you usually do when you are free?<br>
 What do you and your family like to do in the spare time?<br>
 Do you think you will spend more time with your family?</p>
-<ol start="14">
-<li>Travel/trip</li>
-</ol>
+<h3 id="14traveltrip">14.	Travel/trip</h3>
 <p>Do you like travelling?<br>
 What form of transport do you prepare your travel?<br>
 Have you ever travelled alone?<br>
@@ -146,9 +118,7 @@ What places in china (or would be) attractive for foreigners to travel to?<br>
 Which cities have you travelled to?<br>
 What kind of cities do you like to travel to?<br>
 What is the place that left you the deepest impression when traveling?</p>
-<ol start="15">
-<li>Rainy days</li>
-</ol>
+<h3 id="15rainy-days">15.	Rainy days</h3>
 <p>Do people like rainy days?<br>
 Do you often take raincoats or umbrellas with you?<br>
 Does it rain much in china? (where? When?<br>
@@ -165,107 +135,79 @@ Will the rain change your mood?</p>
         <link href="https://junemy.github.io/post/part1">
         </link>
         <updated>2019-11-20T14:27:46.000Z</updated>
-        <content type="html"><![CDATA[<ol>
-<li>Amusement park</li>
-</ol>
+        <content type="html"><![CDATA[<h3 id="1-amusement-park">1. Amusement park</h3>
 <p>Do you like going to amusement parks?<br>
 How often do you go to amusement parks?<br>
 What do you usually do at amusement parks?<br>
 Do you think facilities in amusement parks are safe to get on?</p>
-<ol start="2">
-<li>Makeup</li>
-</ol>
+<h3 id="2makeup">2.	Makeup</h3>
 <p>Do you often wear makeup?<br>
 What does wear makeup mean to you?<br>
 Would you give makeup as gifts?<br>
 How do you feel about man wearing makeup?</p>
-<ol start="3">
-<li>Fatigue/tiredness</li>
-</ol>
+<h3 id="3fatiguetiredness">3.	Fatigue/tiredness</h3>
 <p>What makes you feel tired?<br>
 What do you do when you are tired?<br>
 Who do you prefer to talk to about your worries, friends or families?<br>
 Do you want to talk to others when you are tired?</p>
-<ol start="4">
-<li>Eating</li>
-</ol>
+<h3 id="4eating">4.	Eating</h3>
 <p>How often do you eat with your family members?<br>
 Do you enjoy having healthy foods?<br>
 Do you and your family eat out often?<br>
 Do you prefer eating out or cook at home?</p>
-<ol start="5">
-<li>Weather (sunshine)</li>
-</ol>
+<h3 id="5weather-sunshine">5.	Weather (sunshine)</h3>
 <p>Do you enjoy sunshine?<br>
 What do you usually do on sunny days?<br>
 Have you ever used sunscreen?<br>
 Will you enjoy living in a place where the weather is different?</p>
-<ol start="6">
-<li>Outdoor activity (forest)</li>
-</ol>
+<h3 id="6outdoor-activity-forest">6.	Outdoor activity (forest)</h3>
 <p>Do you prefer indoor or outdoor activities?<br>
 What do people like to do outdoors?<br>
 Do you like walking in a forest when you are free?<br>
 When was the last time you went to a forest?</p>
-<ol start="7">
-<li>Hair cut</li>
-</ol>
+<h3 id="7hair-cut">7.	Hair cut</h3>
 <p>When was the last time you got a haircut?<br>
 What hairstyle did you go for?<br>
 How often do you change your hairstyle?<br>
 Were you happy about the last haircut you got?</p>
-<ol start="8">
-<li>Jeans</li>
-</ol>
+<h3 id="8jeans">8.	Jeans</h3>
 <p>How often do you wear jeans?<br>
 Do you like wearing jeans?<br>
 Why do you think jeans are popular?<br>
 Do you think jeans will be more popular in the future?</p>
-<ol start="9">
-<li>Visiting hometown</li>
-</ol>
+<h3 id="9visiting-hometown">9.	Visiting hometown</h3>
 <p>How often do you go back to your hometown?<br>
 How often do you visit your grandparents?<br>
 What do you bring as gifts when you go back for visits?<br>
 Do you enjoy visiting friends more or families more?</p>
-<p>10． Vacation</p>
+<h3 id="10-vacation">10． Vacation</h3>
 <p>How often do you go on vacation?<br>
 Do you want a long or short vacation?<br>
 What was the most exciting thing you experienced in a trip?<br>
 What is your dream vacation like?</p>
-<ol start="11">
-<li>Languages</li>
-</ol>
+<h3 id="11languages">11.	Languages</h3>
 <p>How many languages do you speak?<br>
 Do you think it’s difficult to learn a new language?<br>
 Why do you learn English?<br>
 Are you currently learning other languages?<br>
 How did you learn the language you speak?<br>
 Do you think English is hard to learn?</p>
-<ol start="12">
-<li>Social media</li>
-</ol>
+<h3 id="12social-media">12.	Social media</h3>
 <p>Do you use the social media often?<br>
 What do you use the social media for?<br>
 Do you think making new friends on social media is a good thing?<br>
 Do you think you will use social media more or less frequently?</p>
-<ol start="13">
-<li>Island</li>
-</ol>
+<h3 id="13island">13.	Island</h3>
 <p>Have you ever been on an island?<br>
 Are there islands in your country?<br>
 Do you want to live on an island?<br>
 What would you like to do while you are on an island?</p>
-<ol start="14">
-<li>Voice</li>
-</ol>
+<h3 id="14voice">14.	Voice</h3>
 <p>Has your voice ever changed?<br>
 Do you like your own voice?<br>
 Do you enjoy recording your voice and listening to it?<br>
 Does your voice sound similar to your parents’?</p>
-<ol start="15">
-<li>Walk</li>
-</ol>
+<h3 id="15walk">15.	Walk</h3>
 <p>Do you walk a lot?<br>
 Do you walk more often than in the past?<br>
 Do you think people will walk more or not in the future?<br>
