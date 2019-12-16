@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>June&#39;s blog</title>
 <meta name="description" content="lifelong learner" />
-<link rel="shortcut icon" href="https://junemy.github.io/favicon.ico?v=1576500552124">
+<link rel="shortcut icon" href="https://junemy.github.io/favicon.ico?v=1576500872901">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
@@ -12,6 +12,18 @@
 
 <link rel="stylesheet" href="https://junemy.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="June&#39;s blog - Atom Feed" href="https://junemy.github.io/atom.xml">
+
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?5a0de7e4bac3eaec55d73f2170f0adbb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 
 
 
@@ -24,7 +36,7 @@
       <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
         <i class="remixicon-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
         <a href="https://junemy.github.io">
-          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://junemy.github.io/images/avatar.png?v=1576500552124" alt="">
+          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://junemy.github.io/images/avatar.png?v=1576500872901" alt="">
         </a>
         <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">June&#39;s blog</h1>
       </div>
@@ -111,6 +123,15 @@ junemengyue@msn.cn</p>
         </div>
 
         
+		
+				<div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'C7j5MaptGRcVHb8ygntnnyNz-gzGzoHsz',
+            appKey: '8SVFzx2DMy2Mr4C7fOTuE1ND'
+        })
+		</script>
 
 
         <div class="flex justify-between py-8">
@@ -118,7 +139,7 @@ junemengyue@msn.cn</p>
 
           
         </div>
-
+		
         
 
       </div>
@@ -223,14 +244,5 @@ const closeMenu = () => {
 }
 </script>
   
-	
-    <div id="vcomments"></div>
-    <script>
-        new Valine({
-            el: '#vcomments',
-            appId: 'C7j5MaptGRcVHb8ygntnnyNz-gzGzoHsz',
-            appKey: '8SVFzx2DMy2Mr4C7fOTuE1ND'
-        })
-		</script>
   </body>
 </html>
