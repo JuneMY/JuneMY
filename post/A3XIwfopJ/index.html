@@ -144,19 +144,14 @@ when i see this topic, the person....<br>
 		
 		<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
     	<script src="/media/scripts/Valine.min.js"></script>
-<div class="comment"></div>
-	<script>
-	    new Valine({
-			av: AV, 
-			el: '.comment',
-			lang: 'zh-cn',
-			emoticon_url: 'https://cloud.panjunwen.com/alu',
-			emoticon_list: ["狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","暗地观察.png"],
-			app_id: 'C7j5MaptGRcVHb8ygntnnyNz-gzGzoHsz',
-			app_key: '8SVFzx2DMy2Mr4C7fOTuE1ND',
-			placeholder: '评论留言'
-	    });
-	</script> 
+		<div class="comment"></div>
+		<script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'C7j5MaptGRcVHb8ygntnnyNz-gzGzoHsz',
+            appKey: '8SVFzx2DMy2Mr4C7fOTuE1ND'
+        })
+		</script>
 
 
         <div class="flex justify-between py-8">
