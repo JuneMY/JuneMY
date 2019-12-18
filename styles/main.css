@@ -52,10 +52,65 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
+  font-family: "Avenir Next", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC";
   /* 1 */
   font-size: 1em;
   /* 2 */
+}
+/* 赞赏 */
+#rewardContainer {
+  padding: 10px 0;
+  margin: 20px auto;
+  width: 90%;
+  text-align: center;
+}
+#rewardButton {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+  letter-spacing: normal;
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: none;
+  overflow: visible;
+}
+#rewardButton span {
+  display: inline-block;
+  font-weight: 400;
+  background: #e26d6d;
+  height: 34px;
+  width: 80px;
+  border-radius: 4px;
+  line-height: 34px;
+  text-align: center;
+  color: #fff;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-family: "Avenir Next", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC";
+  font-size: 14px;
+  cursor: pointer;
+}
+#rewardButton span:hover {
+  background: #f7877f;
+}
+#QR {
+  padding-top: 20px;
+}
+#QR img {
+  width: 180px;
+  max-width: 100%;
+  display: inline-block;
+  margin: 0.8em 2em 0 2em;
+}
+img[data-action=zoom] {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  height: auto;
 }
 /* Text-level semantics
    ========================================================================== */
@@ -92,7 +147,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: "Avenir Next", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC";
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -139,7 +194,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
+  font-family: "Avenir Next", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC";
   /* 1 */
   font-size: 100%;
   /* 1 */
@@ -317,7 +372,7 @@ template {
 html {
   box-sizing: border-box;
   /* 1 */
-  font-family: sans-serif;
+  font-family: "Avenir Next", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC";
   /* 2 */
 }
 *,
@@ -373,7 +428,7 @@ ul {
  * to override it to ensure consistency even when using the default theme.
  */
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Avenir Next", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC";
   /* 1 */
   line-height: 1.5;
   /* 2 */
@@ -490,7 +545,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Avenir Next", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC";
 }
 /**
  * Make replaced elements `display: block` by default as that's
@@ -5817,7 +5872,7 @@ code[class*="language-"],
 pre[class*="language-"] {
   color: white;
   background: none;
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-family: "Avenir Next", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC";
   font-size: 1em;
   text-align: left;
   text-shadow: 0 -0.1em 0.2em black;
@@ -6034,21 +6089,21 @@ pre[data-line] {
 .yue h5,
 .yue h6 {
   -webkit-font-smoothing: antialiased;
-  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Droid Sans Fallback, Microsoft YaHei, sans-serif;
+  font-family: "Avenir Next", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC";
   color: rgba(0, 0, 0, 0.98);
   font-weight: 700;
 }
 .yue h1 {
-  font-size: 1.8em;
+  font-size: 1.6em;
   margin: 0.8em 0;
 }
 .yue h2 {
   font-weight: 700;
-  font-size: 1.42em;
+  font-size: 1.4em;
   margin: 1.42em 0 0.4em;
 }
 .yue h3 {
-  font-size: 1.17em;
+  font-size: 1.2em;
   margin: 1.62em 0 0.4em;
 }
 .yue h4,
@@ -6180,7 +6235,7 @@ pre[data-line] {
   color: #888888;
   font-size: 0.96em;
   padding: 1px 2px;
-  font-family: Menlo,Monaco,Consolas,Courier New,monospace;
+  font-family: "Avenir Next", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC";
   word-wrap: break-word;
 }
 .yue pre {
@@ -6189,7 +6244,7 @@ pre[data-line] {
   overflow: auto;
   line-height: 1.5;
   font-size: 0.86em;
-  font-family: Menlo,Monaco,Consolas,Courier New,monospace;
+  font-family: "Avenir Next", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC";
   border-radius: 0.5rem;
   box-shadow: 1px 1px 0.5em black inset;
   padding: 1em;
@@ -6281,7 +6336,7 @@ pre[data-line] {
 }
 [lang^=zh] .yue em:not([lang=en]) {
   font-style: normal;
-  font-family: Baskerville, Georgia, Kaiti SC, STKaiti, AR PL UKai CN, AR PL UKai HK, AR PL UKai TW, AR PL UKai TW MBE, AR PL KaitiM GB, KaiTi, DFKai-SB, serif;
+  font-family: "Avenir Next", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC";
 }
 @media (max-device-width: 680px) {
   [lang^=zh] .yue em:not([lang=en]) {
@@ -6291,9 +6346,16 @@ pre[data-line] {
     text-emphasis-position: under;
   }
 }
+.post-abstract {
+  font-size: 0.9em;
+  line-height: 1.75;
+  font-family: "Avenir Next", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC";
+  color: #a3a3a3;
+  font-style: italic;
+}
 .post-content {
   line-height: 1.75;
-  font-family: "Droid Serif", "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+  font-family: "Avenir Next", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC";
   color: #2D3748;
 }
 .post-content hr {
