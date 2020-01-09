@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://CalvinCheung.coding.me/june</id>
     <title>June&apos;s blog</title>
-    <updated>2020-01-09T13:57:21.472Z</updated>
+    <updated>2020-01-09T14:01:10.097Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://CalvinCheung.coding.me/june"/>
     <link rel="self" href="https://CalvinCheung.coding.me/june/atom.xml"/>
@@ -665,7 +665,8 @@ Do you have a favourite number?<br>
 Are you good at numbers (maths)?<br>
 Would you like to have a  job dealing with numbers?</p>
 <h2 id="parks">Parks</h2>
-<p>Are there any parks/public facilities near where you live?<br>
+<p>Do you often go to parks?<br>
+Are there any parks/public facilities near where you live?<br>
 Do people in your area like these parks?<br>
 What do you do when you go to a park?<br>
 Do people in your country like going to parks?</p>
