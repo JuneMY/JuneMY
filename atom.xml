@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://CalvinCheung.coding.me/juneblog/</id>
+    <id>http://CalvinCheung.coding.me/juneblog</id>
     <title>June&apos;s blog</title>
-    <updated>2020-01-14T03:53:23.234Z</updated>
+    <updated>2020-01-14T12:24:28.262Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://CalvinCheung.coding.me/juneblog/"/>
+    <link rel="alternate" href="http://CalvinCheung.coding.me/juneblog"/>
     <link rel="self" href="http://CalvinCheung.coding.me/juneblog/atom.xml"/>
     <subtitle>lifelong learner</subtitle>
     <logo>http://CalvinCheung.coding.me/juneblog/images/avatar.png</logo>
