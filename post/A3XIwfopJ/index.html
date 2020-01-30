@@ -1,105 +1,103 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
-<title>#雅思# part 2 段与段之间的连接句 | June&#39;s blog</title>
-<meta name="description" content="lifelong learner">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://CalvinCheung.coding.me/june/favicon.ico?v=1579004992105">
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>June&#39;s blog</title>
+<meta name="description" content="lifelong learner" />
+<link rel="shortcut icon" href="http://CalvinCheung.coding.me/june/favicon.ico?v=1580368050757">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
 <link rel="stylesheet" href="http://CalvinCheung.coding.me/june/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="June&#39;s blog - Atom Feed" href="http://CalvinCheung.coding.me/june/atom.xml">
 
+ <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?5a0de7e4bac3eaec55d73f2170f0adbb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 
 
 
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="http://CalvinCheung.coding.me/june">
-        <img src="http://CalvinCheung.coding.me/june/images/avatar.png?v=1579004992105" class="site-logo">
-        <h1 class="site-title">June&#39;s blog</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
+    <div id="app" class="main px-4 flex flex-col lg:flex-row">
+      <div id="sidebar" class="sidebar-wrapper lg:static lg:w-1/4">
+  <div class="lg:sticky top-0">
+    <div class="sidebar-content">
+      <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
+        <i class="remixicon-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
+        <a href="http://CalvinCheung.coding.me/june">
+          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="http://CalvinCheung.coding.me/june/images/avatar.png?v=1580368050757" alt="">
+        </a>
+        <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">June&#39;s blog</h1>
       </div>
-    </div>
-    <div>
       
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
+        <div class="animated fadeInLeft" style="animation-delay: 0.4s">
+          <p class="my-4 text-gray-600 font-light hidden lg:block">
+            文章目录
+          </p>
+          <div class="toc-container hidden lg:block">
+            
+          </div>
+        </div>
       
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      lifelong learner
-    </div>
-    <div class="site-footer">
-       | <a class="rss" href="http://CalvinCheung.coding.me/june/atom.xml" target="_blank">RSS</a>
     </div>
   </div>
 </div>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">#雅思# part 2 段与段之间的连接句</h2>
-            <div class="post-date">2019-11-26</div>
-            
-              <div class="feature-container" style="background-image: url('http://junejin.cc/post-images/ZEzEtcVZj.jpg')">
-              </div>
-            
-            <div class="post-content">
-              <p>雅思口语part2通常是由一个话题加四个小问题组成，在考试的时候需要烤鸭们自己讲差不多两分钟，这两分钟的内容输出，说多不多，说少不少，如何让考官可以对我们的内容有一个清晰的了解就需要我们将自己的答案给有组织的呈现出来，那么就会涉及到连接句的使用。</p>
+<div class="menu-container">
+  <i class="remixicon-arrow-left-line text-2xl cursor-pointer animated fadeIn close-menu-btn" onclick="closeMenu()"></i>
+  <div>
+    
+      
+        <a href="/" class="menu" style="animation-delay: 0s">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu" style="animation-delay: 0.2s">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu" style="animation-delay: 0.4s">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu" style="animation-delay: 0.6000000000000001s">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="site-footer">
+    <div class="py-4 text-gray-700"></div>
+    <a class="rss" href="http://CalvinCheung.coding.me/june/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+<div class="mask" onclick="closeMenu()">
+</div>
+      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
+        <h1 class="text-3xl font-bold lg:mt-16">#雅思# part 2 段与段之间的连接句</h1>
+        <div class="text-sm text-gray-700 lg:my-8">
+          <span class="remixicon-calendar-line">2019-11-26</span> / <span class="remixicon-map-pin-time-line">2 min read</span>
+        </div>
+        
+        <div class="post-content yue">
+          <p>雅思口语part2通常是由一个话题加四个小问题组成，在考试的时候需要烤鸭们自己讲差不多两分钟，这两分钟的内容输出，说多不多，说少不少，如何让考官可以对我们的内容有一个清晰的了解就需要我们将自己的答案给有组织的呈现出来，那么就会涉及到连接句的使用。</p>
 <p>建议烤鸭们不要将心思过度放在这些连接句上，然后背很多非常长，一看就很像是套路句的连接句，比如说：<br>
 off the top of my head, the person i ....<br>
 when i see this topic, the person....<br>
@@ -126,62 +124,172 @@ when i see this topic, the person....<br>
 </ol>
 <p>最后全部讲完以后给考官一个信号词，so, that's it/ that's all my story.</p>
 
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="http://CalvinCheung.coding.me/june/tag/5vCN5pY2V" class="tag">
-                    雅思口语
-                  </a>
-                
-                  <a href="http://CalvinCheung.coding.me/june/tag/4bdVaIeK9" class="tag">
-                    雅思
-                  </a>
-                
-                  <a href="http://CalvinCheung.coding.me/june/tag/PfHrNC7ueB" class="tag">
-                    口语
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="http://CalvinCheung.coding.me/june/post/1Lxsyq61E">
-                  <h3 class="post-title">
-                    #雅思# 2019年9-12月雅思口语话题 （二）
-                  </h3>
-                </a>
-              </div>
-            
+        </div>
 
-            
+        
+          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="http://CalvinCheung.coding.me/june/tag/5vCN5pY2V">
+            <span class="flex-auto">雅思口语</span>
+          </a>
+        
+          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="http://CalvinCheung.coding.me/june/tag/4bdVaIeK9">
+            <span class="flex-auto">雅思</span>
+          </a>
+        
+          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="http://CalvinCheung.coding.me/june/tag/PfHrNC7ueB">
+            <span class="flex-auto">口语</span>
+          </a>
+        
 
-          </div>
-
+            <div id="rewardContainer">
+      <div></div>
+      <button id="rewardButton" disable="enable" onclick="var qr=document.getElementById('QR'); 'none'===qr.style.display?qr.style.display='block':qr.style.display='none'">
+        <span>赞赏</span>
+      </button>
+      <div id="QR" style="display: none;">
+        <div id="wechat" style="display:inline-block">
+          <img id="wechat_qr" src="/post-images/wechatpay.png" alt="DIYgod 微信扫一扫，向我赞赏" data-action="zoom">
+          <p>微信扫一扫，向我赞赏</p>
+        </div><div id="alipay" style="display:inline-block">
+          <img id="alipay_qr" src="/post-images/alipay.png" alt="DIYgod 支付宝扫一扫，向我赞赏" data-action="zoom">
+          <p>支付宝扫一扫，向我赞赏</p>
         </div>
       </div>
     </div>
+		
+		<div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'C7j5MaptGRcVHb8ygntnnyNz-gzGzoHsz',
+            appKey: '8SVFzx2DMy2Mr4C7fOTuE1ND'
+        })
+		</script>
+	
+        <div class="flex justify-between py-8">
+          
+            <div class="prev-post">
+              <a href="http://CalvinCheung.coding.me/june/post/ZEzEtcVZj">
+                <h3 class="post-title">
+                  <i class="remixicon-arrow-left-line"></i>
+                  #雅思# 一个完整的interview
+                </h3>
+              </a>
+            </div>
+          
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          
+            <div class="next-post">
+              <a href="http://CalvinCheung.coding.me/june/post/1Lxsyq61E">
+                <h3 class="post-title">
+                  #雅思# 2019年9-12月雅思口语话题 （二）
+                  <i class="remixicon-arrow-right-line"></i>
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+      </div>
+    </div>
 
-<script type="application/javascript">
+    <script src="http://CalvinCheung.coding.me/june/media/prism.js"></script>  
+<script>
 
-AOS.init();
+Prism.highlightAll()
 
-hljs.initHighlightingOnLoad()
+let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+// This should probably be throttled.
+// Especially because it triggers during smooth scrolling.
+// https://lodash.com/docs/4.17.10#throttle
+// You could do like...
+// window.addEventListener("scroll", () => {
+//    _.throttle(doThatStuff, 100);
+// });
+// Only not doing it here to keep this Pen dependency-free.
 
+window.addEventListener("scroll", event => {
+  let fromTop = window.scrollY;
+
+  mainNavLinks.forEach((link, index) => {
+    let section = document.getElementById(decodeURI(link.hash).substring(1));
+    let nextSection = null
+    if (mainNavLinks[index + 1]) {
+      nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+    }
+    if (section.offsetTop <= fromTop) {
+      if (nextSection) {
+        if (nextSection.offsetTop > fromTop) {
+          link.classList.add("current");
+        } else {
+          link.classList.remove("current");    
+        }
+      } else {
+        link.classList.add("current");
+      }
+    } else {
+      link.classList.remove("current");
+    }
+  });
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyImages = [].slice.call(document.querySelectorAll(".post-feature-image.lazy"));
+
+  if ("IntersectionObserver" in window) {
+    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          let lazyImage = entry.target
+          lazyImage.style.backgroundImage = `url(${lazyImage.dataset.bg})`
+          lazyImage.classList.remove("lazy")
+          lazyImageObserver.unobserve(lazyImage)
+        }
+      });
+    });
+
+    lazyImages.forEach(function(lazyImage) {
+      lazyImageObserver.observe(lazyImage)
+    })
+  } else {
+    // Possibly fall back to a more compatible method here
+  }
+});
+
+const menuContainer = document.querySelector('.menu-container')
+const menus = document.querySelectorAll('.menu-container .menu')
+const mask = document.querySelector('.mask')
+const contentWrapper = document.querySelector('.content-wrapper')
+const latestArticle = document.querySelector('.latest-article')
+const readMore = document.querySelector('.read-more')
+const indexPage = document.querySelector('.index-page')
+
+const isHome = location.pathname === '/'
+if (latestArticle) {
+  latestArticle.style.display = isHome ? 'block' : 'none'
+  readMore.style.display = isHome ? 'block' : 'none'
+  indexPage.style.display = isHome ? 'none' : 'block'
+}
+
+const openMenu = () => {
+  menuContainer.classList.add('open')
+  menus.forEach(menu => {
+    menu.classList.add('animated', 'fadeInLeft')
+  })
+  mask.classList.add('open')
+  contentWrapper.classList.add('is-second')
+}
+
+const closeMenu = () => {
+  menuContainer.classList.remove('open')
+  menus.forEach(menu => {
+    menu.classList.remove('animated', 'fadeInLeft')
+  })
+  mask.classList.remove('open')
+  contentWrapper.classList.remove('is-second')
+}
 </script>
-
-
-
-
+  
   </body>
 </html>
