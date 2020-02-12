@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://JuneMY.github.io</id>
     <title>June&apos;s blog</title>
-    <updated>2020-02-12T09:35:44.026Z</updated>
+    <updated>2020-02-12T14:58:42.457Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://JuneMY.github.io"/>
     <link rel="self" href="https://JuneMY.github.io/atom.xml"/>
@@ -1879,17 +1879,17 @@ I think more Chinese people prefer to drink tea than coffee. I know my family do
 <li>Do you prepare tea or coffee for the guests at home?<br>
 I prepare and serve tea for guests at home. My mother will make coffee for the few guests who prefer coffee, because I don’t know how to make it properly.</li>
 </ol>
-<p>Whenever I have people pay me a visit, I usually make them a cup of tea. This is especially true if they stop by for dinner or simply in the afternoon.</p>
+<p>Whenever I have people <strong><tagname style="color:red">pay me a visit</tagname></strong>, I usually make them a cup of tea. <strong><tagname style="color:red">This is especially true if they stop by</tagname></strong> for dinner or simply in the afternoon.</p>
 <ol start="3">
 <li>When was the last time you drank tea or coffee?<br>
 I drank some green tea this morning. I have tea every morning. When I get home from school, I will often have an herbal tea. I have only tried coffee once, and frankly, I just don’t like it. It tastes very bitter to me.</li>
 </ol>
-<p>I have to confess, I' ve had tea and coffee today. This morning, I had a latte for breakfast. I also washed my lunch down with a cup of green tea. They were both delicious.</p>
+<p>I have to confess, I' ve had tea and coffee today. This morning, I had a latte for breakfast. I also  <strong><tagname style="color:red">washed my lunch down with</tagname></strong> a cup of green tea. They were both delicious.</p>
 <h2 id="photos">Photos</h2>
 <ol>
 <li>
 <p>Do you like to take photos?<br>
-In truth, I am not the sort of person who would go around snapping photos or selfies I only do so when I want to capture a special moment, and I would use my phones camera instead of a professional one Good for me that taking photos these days is as easy as pie, otherwise I would end up without a single picture.</p>
+In truth,  <strong><tagname style="color:red">I am not the sort of person who</tagname></strong> would go around <strong><tagname style="color:red">snapping photos or selfies</tagname></strong>. I only do so when I want to <strong><tagname style="color:red">capture a special moment</tagname></strong>, and I would use my phones camera instead of a professional one Good for me that taking photos these days is <strong><tagname style="color:red">as easy as pie</tagname></strong>, otherwise I would end up without a single picture.</p>
 </li>
 <li>
 <p>Do you prefer to take photos yourself or to have other people take photos?<br>
