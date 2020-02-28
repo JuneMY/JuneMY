@@ -43,29 +43,9 @@ var _hmt = _hmt || [];
       
         <div class="animated fadeInLeft" style="animation-delay: 0.4s">
           <p class="my-4 text-gray-600 font-light hidden lg:block">
-            lifelong learner
+            文章目录
           </p>
-          <div class="animated fadeInLeft social-container hidden lg:block" style="animation-delay: 0.6s">
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
+          <div class="toc-container hidden lg:block">
             
           </div>
         </div>
@@ -110,127 +90,70 @@ var _hmt = _hmt || [];
 </div>
 <div class="mask" onclick="closeMenu()">
 </div>
-      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4">
-        <h2 class="text-lg text-gray-700 mb-8">
-          <i class="remixicon-bookmark-line"></i> 常规亮点词
-        </h2>
+      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
+        <h1 class="text-3xl font-bold lg:mt-16">#读书笔记#  Animal Farm</h1>
+        <div class="text-sm text-gray-700 lg:my-8">
+          <span class="remixicon-calendar-line">2020-02-28</span> / <span class="remixicon-map-pin-time-line">2 min read</span>
+        </div>
         
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${0 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://JuneMY.github.io/post/eQpZ1OfCG">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">#雅思# #口语# 不同说法--最好的</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        World-class. 世界级的
-Cutting-edge 最前沿的，最先进的
-State-of-art adj. 十分先进的，应用最新理念或方法的
-The ......
-      </div>
-      <div class="text-gray-400 text-sm font-light">
-      <span class="remixicon-calendar-line">2020-02-22</span> / <span class="remixicon-map-pin-time-line">1 min read</span>
+        <div class="post-content yue">
+          <p>About this book<br>
+这本书由英国著名作家George Orwell所著，1945年于英国首次出版。从文体上来看，这是一本寓言小说，反映了1917年俄国革命至斯大林时期的历史故事。《时代杂志》将这本书评选为1923-2005年100佳英文小说。</p>
+<p>About the author<br>
+George Orwell是著名小说家、记者和社会评论家。他以其敏锐的洞察力和犀利的文笔审视和记录着他所生活的那个时代。</p>
+<p>故事开始于英格兰威灵顿的一个农场，由于原主人琼斯先生管理不善，激起了农场内动物的造反之意。在一头老公猪“少校”的指领下，小动物们进行了造反并且成功了。老少校死后，农场主要由其它两头公猪领导着，分别是雪球和拿破仑。一开始，他们和农场的其它小动物严格遵守着【动物主义七戒】，大家一起努力，建设着理想中的农场。后来建设美好家园的列车却越来越朝着相反的方向驶去。【七戒】不断被修改，直到最后谁都不记得曾经的是什么了。</p>
+<p>我的感想<br>
+一月份的时候我就看完了这本书，又是停了这么久才开始写写自己的想法。这次动笔时间晚，最主要的原因是，想法太多，但是又太杂乱，不知道如何说起。读的时候想到了很多，政府，权力，人民，洗脑，历史，等等，等等。如果全部都聊一遍的话，将会是一个浩大的工程，而且，感觉我目前的知识储备也无法支持我对这些话题侃侃而谈，简单针对单个问题发表批判性的言论的话，连我自己都知道那将会是多么的肤浅，所以不打算进行任何的批评，只是想针对其中的某些片段结合我自己的感受聊一聊。</p>
+<p>全部写完以后，发现有点不是很合适放在这里，就决定只展示一部分的笔记，至少证明我看过我写过，剩下的笔记就先躺在我的icloud里吧，以后有机会了再展示。</p>
+
+        </div>
+
+        
+          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://JuneMY.github.io/tag/UdygOnOGz">
+            <span class="flex-auto">读书笔记</span>
+          </a>
+        
+
+            <div id="rewardContainer">
+      <div></div>
+      <button id="rewardButton" disable="enable" onclick="var qr=document.getElementById('QR'); 'none'===qr.style.display?qr.style.display='block':qr.style.display='none'">
+        <span>赞赏</span>
+      </button>
+      <div id="QR" style="display: none;">
+        <div id="wechat" style="display:inline-block">
+          <img id="wechat_qr" src="/post-images/wechatpay.png" alt="DIYgod 微信扫一扫，向我赞赏" data-action="zoom">
+          <p>微信扫一扫，向我赞赏</p>
+        </div><div id="alipay" style="display:inline-block">
+          <img id="alipay_qr" src="/post-images/alipay.png" alt="DIYgod 支付宝扫一扫，向我赞赏" data-action="zoom">
+          <p>支付宝扫一扫，向我赞赏</p>
+        </div>
       </div>
     </div>
-  </section>
+		
+		<div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'C7j5MaptGRcVHb8ygntnnyNz-gzGzoHsz',
+            appKey: '8SVFzx2DMy2Mr4C7fOTuE1ND'
+        })
+		</script>
+	
+        <div class="flex justify-between py-8">
+          
 
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${1 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://JuneMY.github.io/post/w_akTuoDa">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">#雅思# #口语# 常用原因&amp;解释 -- 放松</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        #雅思# #口语# 常用原因&amp;解释 -- 放松
-Relax
-Get relaxed
-Relieve yourself
-Relieve pressure
-......
-      </div>
-      <div class="text-gray-400 text-sm font-light">
-      <span class="remixicon-calendar-line">2020-02-22</span> / <span class="remixicon-map-pin-time-line">3 min read</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${2 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://JuneMY.github.io/post/1u8hWFAHM">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">#雅思# #口语# 常用原因&amp;解释 -- 喜欢/不喜欢</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        喜欢
-直译
-I’m into…
-I am into country music.
-I am so into studying English.
-I’m into......
-      </div>
-      <div class="text-gray-400 text-sm font-light">
-      <span class="remixicon-calendar-line">2020-02-15</span> / <span class="remixicon-map-pin-time-line">8 min read</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${3 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://JuneMY.github.io/post/WxZg0r4zH">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">##雅思# #口语# 常用原因&amp;解释 -- 累</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        I'm tired.
-不管是在原因中还是最新的一个话题中，都有对累的描述，我们需要积累不同的表达方式，这样才可以避免重复。
-当然，还需要注意好用法额～
-加副词来......
-      </div>
-      <div class="text-gray-400 text-sm font-light">
-      <span class="remixicon-calendar-line">2019-12-29</span> / <span class="remixicon-map-pin-time-line">4 min read</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${4 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://JuneMY.github.io/post/ofsZryf1i">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">雅思# #口语# 常用原因&amp;解释 -- 忙</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        人很忙
-I am busy.
-I'm really busy.
-I'm kind of busy.
-She is sort of busy.
-We will b......
-      </div>
-      <div class="text-gray-400 text-sm font-light">
-      <span class="remixicon-calendar-line">2019-12-29</span> / <span class="remixicon-map-pin-time-line">4 min read</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${5 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://JuneMY.github.io/post/p594OefSA">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">#雅思# #口语# 常用原因&amp;解释 -- 开心&amp;兴奋</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        雅思口语中，我们经常会需要表达自己的情绪，开心，但是我们不能一直使用happy，那么积累一些不同的近义词就极为重要。除了掌握单词的样子，还要学会发音和正确用法。......
-      </div>
-      <div class="text-gray-400 text-sm font-light">
-      <span class="remixicon-calendar-line">2019-12-29</span> / <span class="remixicon-map-pin-time-line">9 min read</span>
-      </div>
-    </div>
-  </section>
-
-        <div class="pagination-container animated fadeIn">
-  
-  
-</div>
-
+          
+            <div class="next-post">
+              <a href="https://JuneMY.github.io/post/MEWw6hTpb">
+                <h3 class="post-title">
+                  #雅思# #口语# 不同说法--最好的/比别人好
+                  <i class="remixicon-arrow-right-line"></i>
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
       </div>
     </div>
 
